@@ -10,7 +10,6 @@ mock = "*"
 tox = "*"
 flake8 = "*"
 flake8-colors = "*"
-pyversion3 = "*"
 
 [packages]
 PyCryptodome = "*"
@@ -19,12 +18,11 @@ djangorestframework = "*"
 pyOpenSSL = "*"
 pytz = "*"
 requests = "*"
-pyversion3 = "*"
 sphinx = "*"
 sphinx-rtd-theme = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true

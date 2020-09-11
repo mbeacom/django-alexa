@@ -1,7 +1,7 @@
 import pytest
 import mock
 from django_alexa.internal import validation
-from imp import reload
+from importlib import reload
 from datetime import datetime, timedelta
 import pytz
 import os
